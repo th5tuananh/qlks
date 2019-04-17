@@ -63,15 +63,15 @@ if(isset($_GET['q']))
         <nav class="navbar navbar-inverse">
             <div class="container-fluid">
                 <ul class="nav navbar-nav">
-                    <li><a href="index.php">Home</a></li>
-                    <li><a href="room.php">Room &amp; Facilities</a></li>
-                    <li><a href="reservation.php">Online Reservation</a></li>
-                    <li class="active"><a href="admin.php">Admin</a></li>
+                    <li><a href="index.php">TRANG CHỦ</a></li>
+                    <li><a href="room.php">PHÒNG VÀ TIỆN NGHI</a></li>
+                    <li><a href="reservation.php">ĐẶT PHÒNG TRỰC TUYẾN</a></li>
+                    <li class="active"><a href="admin.php">QUẢN LÝ</a></li>
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
                     <li>
                         <a href="admin.php?q=logout">
-                            <button type="button" class="btn btn-danger">Logout</button>
+                            <button type="button" class="btn btn-danger">Đăng xuất</button>
                         </a>
                     </li>
                 </ul>
@@ -81,12 +81,12 @@ if(isset($_GET['q']))
         <div class="row">
            <div class="col-md-3"></div>
             <div class="col-md-6 well">
-                <h4>Room Category</h4>
+                <h4>Danh Mục Phòng</h4>
                 <hr>
                 <ul>
-                    <li><a href="admin/addroom.php">Add Room Category</a></li>
-                    <li><a href="show_room_cat.php">Show All Room Category</a></li>
-                    <li><a href="show_room_cat.php">Edit Room Category</a></li>
+                    <li><a href="admin/addroom.php">Thêm danh mục phòng</a></li>
+                    <li><a href="show_room_cat.php">Hiển thị tất cả loại phòng</a></li>
+                    <li><a href="show_room_cat.php">Chỉnh sửa danh mục phòng</a></li>
                 </ul>
             </div>
             <div class="col-md-3"></div>
@@ -95,12 +95,12 @@ if(isset($_GET['q']))
         <div class="row">
            <div class="col-md-3"></div>
             <div class="col-md-6 well">
-                <h4>Bookings</h4>
+                <h4>Đặt Chỗ</h4>
                 <hr>
                 <ul>
-                    <li><a href="room.php">Book Now</a></li>
-                    <li><a href="show_all_room.php">Show All Booked Rooms</a></li>
-                    <li><a href="show_all_room.php">Edit Booked Room</a></li>
+                    <li><a href="room.php">Đặt bây giờ</a></li>
+                    <li><a href="show_all_room.php">Hiển thị tất cả các phòng đã đặt</a></li>
+                    <li><a href="show_all_room.php">Chỉnh sửa phòng đã đặt</a></li>
                 </ul>
             </div>
            <div class="col-md-3"></div>
@@ -110,10 +110,10 @@ if(isset($_GET['q']))
         <div class="row">
            <div class="col-md-3"></div>
             <div class="col-md-6 well">
-                <h4>Add Manager</h4>
+                <h4>Thêm Quản Lý</h4>
                 <hr>
                 <ul>
-                    <li><a href="admin/registration.php">Add Manager</a></li>
+                    <li><a href="admin/registration.php">Thêm quản lý</a></li>
  
                 </ul>
             </div>

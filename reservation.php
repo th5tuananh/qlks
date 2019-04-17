@@ -94,11 +94,11 @@
         <nav class="navbar navbar-inverse">
             <div class="container-fluid">
                 <ul class="nav navbar-nav">
-                    <li><a href="index.php">Home</a></li>
-                    <li><a href="room.php">Room &amp; Facilities</a></li>
-                    <li class="active"><a href="reservation.php">Online Reservation</a></li>
+                    <li><a href="index.php">TRANG CHỦ</a></li>
+                    <li><a href="room.php">PHÒNG VÀ TIỆN NGHI</a></li>
+                    <li class="active"><a href="reservation.php">ĐẶT PHÒNG TRỰC TUYẾN</a></li>
 
-                   <li><a href="admin.php">Admin</a></li>
+                   <li><a href="admin.php">QUẢN LÝ</a></li>
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="http://www.facebook.com"><img src="images/facebook.png"></a></li>
@@ -114,18 +114,18 @@
               
               
                <div class="form-group">
-                    <label for="checkin">Check In :</label>&nbsp;&nbsp;&nbsp;
+                    <label for="checkin">Ngày nhận phòng:</label>&nbsp;&nbsp;&nbsp;
                     <input type="text" class="datepicker" name="checkin">
 
                 </div>
                
                <div class="form-group">
-                    <label for="checkout">Check Out:</label>&nbsp;&nbsp;
+                    <label for="checkout">Ngày trả phòng:</label>&nbsp;&nbsp;
                     <input type="text" class="datepicker" name="checkout">
                 </div>
                  
                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <button type="submit" class="btn btn-primary button" name="submit">Check Availability</button>
+                <button type="submit" class="btn btn-primary button" name="submit">Kiểm Tra</button>
 
             </form>
            </div>
