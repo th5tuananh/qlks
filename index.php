@@ -64,7 +64,7 @@
         <nav class="navbar navbar-inverse">
             <div class="container-fluid">
                 <ul class="nav navbar-nav">
-                    <li class="active"><a href="index.php">Home</a></li>
+                    <li class="active"><a href="index.php">TRANG CHỦ</a></li>
                     <li><a href="room.php">Room &amp; Facilities</a></li>
                     <li><a href="reservation.php">Online Reservation</a></li>
                     <li><a href="admin.php">Admin</a></li>
@@ -93,7 +93,7 @@
               <h4><strong style="color: #ffbb2b">GIỚI THIỆU TỔNG QUAN</strong></h4><br>
               <p>Khách sạn Luxury Cần Thơ là khách sạn 5 sao đẳng cấp quốc tế, toaj lạc tại trung tâm Thành Phố Cần Thơ. Với 230 phòng tiêu chuẩn hạng sang thiết kế đẹp mắt và trang nhã đem lại sự tiện nghi và thoải mái dù là thời gian nghỉ ngơi thư giãn hay trong chuyến công tác.</p>
               <br>
-              <p>Khách sạn có các tầng riêng biệt với 6 địa điểm phục vụ nhu cầu và ẩm thực của quý khách. Đặc biệt là nhà hàng Lux & Bar phục vụ các món ăn miền tây và quầy Bar phục vụ quý khách vui chơi vào buổi tối. Quán Coffee sân thượng với view hướng về phía sông đón gió cho quý khách gốc nhìn toàn cảnh về Cần Thơ. Ngoài ra còn có hồ bơi với view vô cực và các dịch vụ thể hình, spa và massage</p>
+              <p>Khách sạn có các tầng riêng biệt với 6 địa điểm phục vụ nhu cầu và ẩm thực của quý khách. Đặc biệt là nhà hàng Lux & Bar phục vụ các món ăn miền tây và quầy Bar phục vụ quý khách vui chơi vào buổi tối. Quán Coffee sân thượng với view hướng về phía sông đón gió cho quý khách gốc nhìn toàn cảnh về Cần Thơ. Ngoài ra còn có hồ bơi với view vô cực và các dịch vụ thể hình, spa và massage.</p>
               <br>
               <p>Khách sạn Luxury Cần Thơ với cơ sở vật chất và dịch vụ đẳng cấp thế giới là sự lựa chọn cho quý khách trong những chuyến công tác và kỳ nghỉ khi ghé thăm thành phố trung tâm của Đồng Bằng Sông Cửu Long này.</p>
               
@@ -101,14 +101,14 @@
         </div>
         <div class="row" style="color: #ffbb2b">
             <div class="col-md-4 wellfix">
-              <h4><strong>Contact Us</strong></h4><hr>
-              Address : East West University<br>
-              Mail : mamunwithbug@gmail.com <br>
+              <h4><strong>Liên Hệ Chúng Tôi</strong></h4><hr>
+              Địa chỉ : Cái Khế, Ninh Kiều, Cần Thơ.<br>
+              Mail : th5tuananh@gmail.com <br>
             </div>
             <div class="col-md-4"></div>
             <div class="col-md-4 wellfix">
-                <h4><strong>Developed By</strong></h4><hr>
-                <a href="#"><img src="images/us/mamun.jpg" class="pro_pic">Abdullah Al Mamun</a>
+                <h4><strong>Được Phát Triển Bởi</strong></h4><hr>
+                <a href="#"><img src="images/us/mamun.png" class="pro_pic">Mường Thanh Luxury Cần Thơ</a>
 
             </div>
         </div>
