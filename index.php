@@ -90,12 +90,12 @@
         <hr>
         <div class="row" style="color: #ed9e21">
             <div class="col-md-12 well" >
-              <h4><strong style="color: #ffbb2b">About</strong></h4><br>
-              <p>Online hotel reservations are a popular method for booking hotel rooms. Travelers can book rooms on a computer by using online security to protect their privacy and financial information and by using several online travel agents to compare prices and facilities at different hotels</p>
+              <h4><strong style="color: #ffbb2b">GIỚI THIỆU TỔNG QUAN</strong></h4><br>
+              <p>Khách sạn Luxury Cần Thơ là khách sạn 5 sao đẳng cấp quốc tế, toaj lạc tại trung tâm Thành Phố Cần Thơ. Với 230 phòng tiêu chuẩn hạng sang thiết kế đẹp mắt và trang nhã đem lại sự tiện nghi và thoải mái dù là thời gian nghỉ ngơi thư giãn hay trong chuyến công tác.</p>
               <br>
-              <p>Prior to the Internet, travelers could write, telephone the hotel directly, or use a travel agent to make a reservation. Nowadays, online travel agents have pictures of hotels and rooms, information on prices and deals, and even information on local resorts. Many also allow reviews of the traveler to be recorded with the online travel agent.</p>
+              <p>Khách sạn có các tầng riêng biệt với 6 địa điểm phục vụ nhu cầu và ẩm thực của quý khách. Đặc biệt là nhà hàng Lux & Bar phục vụ các món ăn miền tây và quầy Bar phục vụ quý khách vui chơi vào buổi tối. Quán Coffee sân thượng với view hướng về phía sông đón gió cho quý khách gốc nhìn toàn cảnh về Cần Thơ. Ngoài ra còn có hồ bơi với view vô cực và các dịch vụ thể hình, spa và massage</p>
               <br>
-              <p>Online hotel reservations are also helpful for making last minute travel arrangements. Hotels may drop the price of a room if some rooms are still available. There are several websites that specialize in searches for deals on rooms.</p>
+              <p>Khách sạn Luxury Cần Thơ với cơ sở vật chất và dịch vụ đẳng cấp thế giới là sự lựa chọn cho quý khách trong những chuyến công tác và kỳ nghỉ khi ghé thăm thành phố trung tâm của Đồng Bằng Sông Cửu Long này.</p>
               
             </div>  
         </div>
