@@ -54,7 +54,7 @@ $user=new User();
     <div class="container">
       
       
-       <img class="img-responsive" src="images/home_banner.jpg" style="width:100%; height:180px;">      
+       <img class="img-responsive" src="images/anhbia4.png" style="width:100%; height:180px;">      
         <nav class="navbar navbar-inverse">
             <div class="container-fluid">
                 <ul class="nav navbar-nav">
@@ -89,12 +89,12 @@ $user=new User();
                             <div class='col-md-3'></div>
                             <div class='col-md-6 well'>
                                 <h4>".$row['roomname']."</h4><hr>
-                                <h6>No of Beds: ".$row['no_bed']." ".$row['bedtype']." bed.</h6>
-                                <h6>Facilities: ".$row['facility']."</h6>
-                                <h6>Price: ".$row['price']." tk/night.</h6>
+                                <h6>Số lượng giường: ".$row['no_bed']." ".$row['bedtype']." bed.</h6>
+                                <h6>Trang thiết bị: ".$row['facility']."</h6>
+                                <h6>Gía: ".$row['price']." tk/night.</h6>
                             </div>
                             <div class='col-md-3'>
-                                <a href='./booknow.php?roomname=".$row['roomname']."'><button class='btn btn-primary button'>Book Now</button> </a>
+                                <a href='./booknow.php?roomname=".$row['roomname']."'><button class='btn btn-primary button'>Đặt ngay</button> </a>
                             </div>   
                             </div>
                             

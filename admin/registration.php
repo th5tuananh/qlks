@@ -58,15 +58,15 @@ if(isset($_REQUEST[ 'submit']))
 <body>
     <div class="container">
         <div class="well">
-            <h2>Add Your Manager</h2>
+            <h2>Thêm Quản Lý</h2>
             <hr>
             <form action="" method="post" name="reg">
                 <div class="form-group">
-                    <label for="fullname">Full Name:</label>
+                    <label for="fullname">Tên đầy đủ:</label>
                     <input type="text" class="form-control" name="fullname" placeholder="example: Jhon Wiki" required>
                 </div>
                 <div class="form-group">
-                    <label for="uname">User Name:</label>
+                    <label for="uname">Tên người dùng:</label>
                     <input type="text" class="form-control" name="uname" placeholder="exmple: witchbug" required>
                 </div>
                 <div class="form-group">
@@ -74,14 +74,14 @@ if(isset($_REQUEST[ 'submit']))
                     <input type="email" class="form-control" name="uemail" placeholder="example: jhon@gmail.com" required>
                 </div>
                 <div class="form-group">
-                    <label for="upass">Password</label>
+                    <label for="upass">Mật khẩu</label>
                     <input type="text" class="form-control" name="upass" placeholder="abc123" required>
                 </div>
-                <button type="submit" class="btn btn-lg btn-primary button" name="submit" value="Add Manager" onclick="return(submitreg());">Submit</button>
+                <button type="submit" class="btn btn-lg btn-primary button" name="submit" value="Add Manager" onclick="return(submitreg());">Gửi</button>
 
                <br>
                 <div id="click_here">
-                    <a href="../admin.php">Back to Admin Panel</a>
+                    <a href="../admin.php">Trở về Trang chủ</a>
                 </div>
 
 

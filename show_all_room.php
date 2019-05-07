@@ -56,20 +56,19 @@ $user=new User();
     <div class="container">
       
       
-       <img class="img-responsive" src="images/home_banner.jpg" style="width:100%; height:180px;">      
+       <img class="img-responsive" src="images/anhbia4.png" style="width:100%; height:180px;">      
         <nav class="navbar navbar-inverse">
             <div class="container-fluid">
                 <ul class="nav navbar-nav">
-                    <li><a href="index.php">Home</a></li>
-                    <li><a href="room.php">Room &amp; Facilities</a></li>
-                    <li><a href="reservation.php">Online Reservation</a></li>
-                    <li><a href="review.php">Review</a></li>
-                    <li><a href="admin.php">Admin</a></li>
+                    <li><a href="index.php">TRANG CHỦ</a></li>
+                    <li><a href="room.php">PHÒNG VÀ TIỆN NGHI</a></li>
+                    <li><a href="reservation.php">ĐẶT PHÒNG TRỰC TUYẾN</a></li>
+                    <li><a href="admin.php">QUẢN LÝ</a></li>
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
                     <li>
                         <a href="admin.php?q=logout">
-                            <button type="button" class="btn btn-danger">Logout</button>
+                            <button type="button" class="btn btn-danger">Đăng xuất</button>
                         </a>
                     </li>
                 </ul>
@@ -99,13 +98,13 @@ $user=new User();
                             <div class='col-md-2'></div>
                             <div class='col-md-6 well'>
                                 <h4>".$row['room_cat']."</h4><hr>
-                                <h6>Checkin: ".$row['checkin']." and checkout: ".$row['checkout']."</h6>
-                                <h6>Name: ".$row['name']."</h6>
-                                <h6>Phone: ".$row['phone']."</h6>
-                                <h6>Booking Condition: ".$row['book']."</h6>
+                                <h6>Ngày nhận phòng: ".$row['checkin']." and Ngày trả phòng: ".$row['checkout']."</h6>
+                                <h6>Tên: ".$row['name']."</h6>
+                                <h6>Số điện thoại: ".$row['phone']."</h6>
+                                <h6>Điều kiện đặt vé: ".$row['book']."</h6>
                             </div>
                             &nbsp;&nbsp;
-                            <a href='edit_all_room.php?id=".$row['room_id']."'><button class='btn btn-primary button'>Edit</button></a>
+                            <a href='edit_all_room.php?id=".$row['room_id']."'><button class='btn btn-primary button'>Chỉnh sửa</button></a>
                             </div>
                             
                     

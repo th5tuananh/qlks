@@ -90,7 +90,7 @@
     <div class="container">
       
       
-       <img class="img-responsive" src="images/home_banner.jpg" style="width:100%; height:180px;">      
+       <img class="img-responsive" src="images/anhbia4.png" style="width:100%; height:180px;">      
         <nav class="navbar navbar-inverse">
             <div class="container-fluid">
                 <ul class="nav navbar-nav">
@@ -150,13 +150,13 @@
                             <div class='col-md-4'></div>
                             <div class='col-md-5 well'>
                                 <h4>".$row2['roomname']."</h4><hr>
-                                <h6>No of Beds: ".$row2['no_bed']." ".$row2['bedtype']." bed.</h6>
-                                <h6>Available Rooms: ".$row2['available']."</h6>
-                                <h6>Facilities: ".$row2['facility']."</h6>
-                                <h6>Price: ".$row2['price']." tk/night.</h6>
+                                <h6>Số lượng giường: ".$row2['no_bed']." ".$row2['bedtype']." bed.</h6>
+                                <h6>Phòng có sẵn: ".$row2['available']."</h6>
+                                <h6>Trang thiết bị: ".$row2['facility']."</h6>
+                                <h6>Gía: ".$row2['price']." tk/night.</h6>
                             </div>
                             <div class='col-md-3'>
-                                <a href='./booknow.php?roomname=".$row2['roomname']."'><button class='btn btn-primary button'>Book Now</button></a>
+                                <a href='./booknow.php?roomname=".$row2['roomname']."'><button class='btn btn-primary button'>Đặt ngay</button></a>
                             </div>   
                             </div>
                             

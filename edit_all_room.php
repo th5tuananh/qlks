@@ -61,41 +61,41 @@ if(isset($_REQUEST[ 'submit']))
     <div class="container">
       
       
-       <img class="img-responsive" src="images/home_banner.jpg" style="width:100%; height:180px;">      
+       <img class="img-responsive" src="images/anhbia4.png" style="width:100%; height:180px;">      
         
 
       <div class="well">
-            <h2>EDIT</h2>
-          <h2><?php echo  $row['room_cat']?></h2>h2>
+            <h2>CHỈNH SỬA</h2>
+          <h2><?php echo  $row['room_cat']?></h2>
             <hr>
             <form action="" method="post" name="room_category">
               
               
                <div class="form-group">
-                    <label for="checkin">Check In :</label>&nbsp;&nbsp;&nbsp;
+                    <label for="checkin">Ngày nhận phòng :</label>&nbsp;&nbsp;&nbsp;
                     <input type="text" class="datepicker" name="checkin" value="<?php echo $row['checkin']?>">
 
                 </div>
                
                <div class="form-group">
-                    <label for="checkout">Check Out:</label>&nbsp;
+                    <label for="checkout">Ngày trả phòng:</label>&nbsp;
                     <input type="text" class="datepicker" name="checkout" value="<?php echo $row['checkout']?>">
                 </div>
                 <div class="form-group">
-                    <label for="name">Enter Your Full Name:</label>
+                    <label for="name">Nhập tên đầy đủ của bạn:</label>
                     <input type="text" class="form-control" name="name" value="<?php echo $row['name']?>" required>
                 </div>
                 <div class="form-group">
-                    <label for="phone">Enter Your Phone Number:</label>
+                    <label for="phone">Nhập số điện thoại của bạn:</label>
                     <input type="text" class="form-control" name="phone" value="<?php echo $row['phone']?>" required>
                 </div>
                  
                
-                <button type="submit" class="btn btn-lg btn-primary button" name="submit">Update</button>
+                <button type="submit" class="btn btn-lg btn-primary button" name="submit">Cập nhật</button>
 
                <br>
                 <div id="click_here">
-                    <a href="admin.php">Back to Admin Panel</a>
+                    <a href="admin.php">Trở lại Trang chủ</a>
                 </div>
 
 

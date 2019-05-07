@@ -36,15 +36,15 @@ if(isset($_REQUEST[ 'submit']))
 <body>
     <div class="container">
         <div class="well">
-            <h2>Add Room Category</h2>
+            <h2>Thêm Danh Mục Phòng</h2>
             <hr>
             <form action="" method="post" name="room_category">
                 <div class="form-group">
-                    <label for="roomname">Room Type Name:</label>
+                    <label for="roomname">Tên Loại Phòng:</label>
                     <input type="text" class="form-control" name="roomname" placeholder="super delux" required>
                 </div>
                  <div class="form-group">
-                    <label for="qty">No of Rooms:</label>&nbsp;
+                    <label for="qty">Số lượng phòng:</label>&nbsp;
                     <select name="room_qnty">
                       <option value="1">1</option>
                       <option value="2">2</option>
@@ -59,32 +59,32 @@ if(isset($_REQUEST[ 'submit']))
                     </select>
                 </div>
                 <div class="form-group">
-                    <label for="bed">No of Bed:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <label for="bed">Số lượng giường:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     <select name="no_bed">
                       <option value="1">1</option>
                       <option value="2">2</option>
                     </select>
                 </div>
                 <div class="form-group">
-                    <label for="bedtype">Bed Type:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <label for="bedtype">Loại Giường:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                    <select name="bedtype">
-                      <option value="single">single</option>
-                      <option value="double">double</option>
+                      <option value="single">Đơn</option>
+                      <option value="double">Đôi</option>
                     </select>
                 </div>
                 <div class="form-group">
-                    <label for="Facility">Facility</label>
+                    <label for="Facility">Trang thiết bị</label>
                     <textarea class="form-control" rows="5" name="facility"></textarea>
                 </div>
                <div class="form-group">
-                    <label for="price">Price Per Night:</label>
+                    <label for="price">Gía mỗi đêm:</label>
                     <input type="text" class="form-control" name="price" required>
                 </div>
-                <button type="submit" class="btn btn-lg btn-primary button" name="submit" value="Add Room">Add</button>
+                <button type="submit" class="btn btn-lg btn-primary button" name="submit" value="Add Room">Thêm</button>
 
                <br>
                 <div id="click_here">
-                    <a href="../admin.php">Back to Admin Panel</a>
+                    <a href="../admin.php">Trờ về Trang chủ</a>
                 </div>
 
 

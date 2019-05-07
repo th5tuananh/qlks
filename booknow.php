@@ -56,7 +56,7 @@
     <div class="container">
       
       
-       <img class="img-responsive" src="images/home_banner.jpg" style="width:100%; height:180px;">      
+       <img class="img-responsive" src="images/anhbia4.png" style="width:100%; height:180px;">      
         
 
       <div class="well">
@@ -66,21 +66,21 @@
               
               
                <div class="form-group">
-                    <label for="checkin">Check In :</label>&nbsp;&nbsp;&nbsp;
+                    <label for="checkin">Ngày nhận phòng :</label>&nbsp;&nbsp;&nbsp;
                     <input type="text" class="datepicker" name="checkin">
 
                 </div>
                
                <div class="form-group">
-                    <label for="checkout">Check Out:</label>&nbsp;
+                    <label for="checkout">Ngày trả phòng:</label>&nbsp;
                     <input type="text" class="datepicker" name="checkout">
                 </div>
                 <div class="form-group">
-                    <label for="name">Enter Your Full Name:</label>
+                    <label for="name">Nhập tên đầy đủ:</label>
                     <input type="text" class="form-control" name="name" placeholder="Jhon Wicky" required>
                 </div>
                 <div class="form-group">
-                    <label for="phone">Enter Your Phone Number:</label>
+                    <label for="phone">Nhập số điện thoại:</label>
                     <input type="text" class="form-control" name="phone" placeholder="018XXXXXXX" required>
                 </div>
                  
@@ -89,7 +89,7 @@
 
                <br>
                 <div id="click_here">
-                    <a href="index.php">Back to Home</a>
+                    <a href="index.php">Quay về Trang chủ</a>
                 </div>
 
 
