@@ -52,24 +52,8 @@
                 
 
             }
-            
-            public function check_available($checkin, $checkout)
-            {
-                
-                
-                   $sql="SELECT DISTINCT room_cat FROM rooms WHERE room_id NOT IN (SELECT DISTINCT room_id
-   FROM rooms WHERE (checkin <= '$checkin' AND checkout >='$checkout') OR (checkin >= '$checkin' AND checkin <='$checkout') OR (checkin <= '$checkin' AND checkout >='$checkin') )";
-                    $check= mysqli_query($this->db,$sql)  or die(mysqli_connect_errno()."Query Doesnt run");;
 
-                
-                    return $check;
-                
 
-            }
-            
-            
-            
-            
             public function booknow($checkin, $checkout, $name, $phone,$roomname)
             {
                     

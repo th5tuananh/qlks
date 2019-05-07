@@ -62,7 +62,6 @@ $user=new User();
                 <ul class="nav navbar-nav">
                     <li><a href="index.php">TRANG CHỦ</a></li>
                     <li><a href="room.php">PHÒNG VÀ TIỆN NGHI</a></li>
-                    <li><a href="reservation.php">ĐẶT PHÒNG TRỰC TUYẾN</a></li>
                     <li><a href="admin.php">QUẢN LÝ</a></li>
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
