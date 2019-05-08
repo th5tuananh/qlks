@@ -97,7 +97,7 @@ $user=new User();
                             <div class='col-md-2'></div>
                             <div class='col-md-6 well'>
                                 <h4>".$row['roomname']."</h4><hr>
-                                <h6>Số lượng giường: ".$row['no_bed']." ".$row['bedtype']." bed.</h6>
+                                <h6>Số lượng giường: ".$row['no_bed']." ".$row['bedtype']." .</h6>
                                 <h6>Trang thiết bị: ".$row['facility']."</h6>
                                 <h6>Gía: ".$row['price']." USD.</h6>
                             </div>
