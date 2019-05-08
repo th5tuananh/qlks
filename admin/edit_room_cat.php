@@ -74,8 +74,8 @@ if(isset($_REQUEST[ 'submit']))
                     <label for="bedtype">Loại giường:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                    <select name="bedtype">
                      <option value="<?php echo $row['bedtype'] ?>"><?php echo $row['bedtype'] ?></option>
-                      <option value="single">đơn</option>
-                      <option value="double">đôi</option>
+                      <option value="single">single</option>
+                      <option value="double">double</option>
                     </select>
                 </div>
                 <div class="form-group">
