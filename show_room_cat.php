@@ -99,7 +99,7 @@ $user=new User();
                                 <h4>".$row['roomname']."</h4><hr>
                                 <h6>Số lượng giường: ".$row['no_bed']." ".$row['bedtype']." bed.</h6>
                                 <h6>Trang thiết bị: ".$row['facility']."</h6>
-                                <h6>Gía: ".$row['price']." tk/night.</h6>
+                                <h6>Gía: ".$row['price']." USD.</h6>
                             </div>
                             &nbsp;&nbsp;
                             <a href='admin/edit_room_cat.php?roomname=".$row['roomname']."'><button class='btn btn-primary button'>Chỉnh sửa</button></a>

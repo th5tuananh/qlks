@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: db
--- Generation Time: May 08, 2019 at 03:50 AM
+-- Generation Time: May 08, 2019 at 04:09 AM
 -- Server version: 5.7.25
 -- PHP Version: 7.2.14
 
@@ -102,8 +102,8 @@ CREATE TABLE `room_category` (
 --
 
 INSERT INTO `room_category` (`roomname`, `room_qnty`, `available`, `booked`, `no_bed`, `bedtype`, `facility`, `price`) VALUES
-('Duplex', 5, 5, 0, 2, 'single', 'Tủ lạnh, máy nước nóng, máy lạnh, TV, Wifi', 1500),
-('Family', 5, 5, 0, 2, 'double', 'Sofa, TV, WIFI, máy nước nóng, máy lạnh, tủ lạnh, AC.', 3500),
+('Duplex', 5, 5, 0, 2, 'single', 'AC, TV, Wifi, 1500', 1500),
+('Family', 5, 5, 0, 2, 'double', 'Sofa, TV, WIFI, Balcony, AC', 3500),
 ('Super Comfort', 5, 5, 0, 1, 'double', 'AC, TV, WIFI', 2200);
 
 --

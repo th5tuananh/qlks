@@ -68,8 +68,8 @@ if(isset($_REQUEST[ 'submit']))
                 <div class="form-group">
                     <label for="bedtype">Loại Giường:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                    <select name="bedtype">
-                      <option value="single">Đơn</option>
-                      <option value="double">Đôi</option>
+                      <option value="single">single</option>
+                      <option value="double">double</option>
                     </select>
                 </div>
                 <div class="form-group">
