@@ -88,9 +88,9 @@ $user=new User();
                             <div class='col-md-3'></div>
                             <div class='col-md-6 well'>
                                 <h4>".$row['roomname']."</h4><hr>
-                                <h6>Số lượng giường: ".$row['no_bed']." ".$row['bedtype']." bed.</h6>
+                                <h6>Số lượng giường: ".$row['no_bed']." ".$row['bedtype']." giường.</h6>
                                 <h6>Trang thiết bị: ".$row['facility']."</h6>
-                                <h6>Gía: ".$row['price']." tk/night.</h6>
+                                <h6>Gía: ".$row['price']." USD.</h6>
                             </div>
                             <div class='col-md-3'>
                                 <a href='./booknow.php?roomname=".$row['roomname']."'><button class='btn btn-primary button'>Đặt ngay</button> </a>

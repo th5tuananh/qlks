@@ -1,13 +1,15 @@
 -- phpMyAdmin SQL Dump
--- version 4.5.1
--- http://www.phpmyadmin.net
+-- version 4.8.5
+-- https://www.phpmyadmin.net/
 --
--- Host: 127.0.0.1
--- Generation Time: May 18, 2017 at 05:44 PM
--- Server version: 10.1.19-MariaDB
--- PHP Version: 7.0.13
+-- Host: db
+-- Generation Time: May 08, 2019 at 03:50 AM
+-- Server version: 5.7.25
+-- PHP Version: 7.2.14
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET AUTOCOMMIT = 0;
+START TRANSACTION;
 SET time_zone = "+00:00";
 
 
@@ -17,7 +19,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `id1709610_hotel`
+-- Database: `hotel`
 --
 
 -- --------------------------------------------------------
@@ -39,8 +41,6 @@ CREATE TABLE `manager` (
 --
 
 INSERT INTO `manager` (`uid`, `uname`, `upass`, `fullname`, `uemail`) VALUES
-(1, 'mamun', '1234', 'Abdullah Al Mamun', 'mamunwitchbug@gmail.com'),
-(3, 'jinat', 'jinat', 'Jinat Afroj', 'afrojjinat@gmail.com'),
 (6, 'admin', '1234', 'admin', 'admin@admin.com');
 
 -- --------------------------------------------------------
@@ -69,8 +69,8 @@ INSERT INTO `rooms` (`room_id`, `room_cat`, `checkin`, `checkout`, `name`, `phon
 (25, 'Family', '0000-00-00', '0000-00-00', '', 0, 'false'),
 (26, 'Family', '0000-00-00', '0000-00-00', '', 0, 'false'),
 (27, 'Family', '0000-00-00', '0000-00-00', '', 0, 'false'),
-(28, 'Super Comfort', '2017-05-19', '2017-05-22', 'Jinat Afroj', 1524587558, 'true'),
-(29, 'Super Comfort', '0000-00-00', '0000-00-00', '', 0, 'false'),
+(28, 'Super Comfort', '2019-05-08', '2019-05-12', 'Hieu', 12258423, 'true'),
+(29, 'Super Comfort', '2019-05-08', '2019-05-12', 'Tuan Tu', 36985521, 'true'),
 (30, 'Super Comfort', '0000-00-00', '0000-00-00', '', 0, 'false'),
 (31, 'Super Comfort', '0000-00-00', '0000-00-00', '', 0, 'false'),
 (32, 'Super Comfort', '0000-00-00', '0000-00-00', '', 0, 'false'),
@@ -102,8 +102,8 @@ CREATE TABLE `room_category` (
 --
 
 INSERT INTO `room_category` (`roomname`, `room_qnty`, `available`, `booked`, `no_bed`, `bedtype`, `facility`, `price`) VALUES
-('Duplex', 5, 5, 0, 2, 'single', 'AC, TV, Wifi', 1500),
-('Family', 5, 5, 0, 2, 'double', 'Sofa, TV, WIFI, Balcony, AC.', 3500),
+('Duplex', 5, 5, 0, 2, 'single', 'Tủ lạnh, máy nước nóng, máy lạnh, TV, Wifi', 1500),
+('Family', 5, 5, 0, 2, 'double', 'Sofa, TV, WIFI, máy nước nóng, máy lạnh, tủ lạnh, AC.', 3500),
 ('Super Comfort', 5, 5, 0, 1, 'double', 'AC, TV, WIFI', 2200);
 
 --
@@ -136,12 +136,15 @@ ALTER TABLE `room_category`
 -- AUTO_INCREMENT for table `manager`
 --
 ALTER TABLE `manager`
-  MODIFY `uid` int(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
+  MODIFY `uid` int(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
+
 --
 -- AUTO_INCREMENT for table `rooms`
 --
 ALTER TABLE `rooms`
   MODIFY `room_id` int(200) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=38;
+COMMIT;
+
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
