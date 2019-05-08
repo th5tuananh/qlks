@@ -95,7 +95,7 @@ if(isset($_REQUEST[ 'submit']))
 
                <br>
                 <div id="click_here">
-                    <a href="admin.php">Trở lại Trang chủ</a>
+                    <a href="admin.php">Trở về Trang chủ</a>
                 </div>
 
 

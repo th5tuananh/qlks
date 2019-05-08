@@ -60,7 +60,7 @@
         
 
       <div class="well">
-            <h2>Book Now: <?php echo $roomname; ?></h2>
+            <h2>Đặt ngay: <?php echo $roomname; ?></h2>
             <hr>
             <form action="" method="post" name="room_category">
               
@@ -85,11 +85,11 @@
                 </div>
                  
                
-                <button type="submit" class="btn btn-lg btn-primary button" name="submit">Book Now</button>
+                <button type="submit" class="btn btn-lg btn-primary button" name="submit">Đặt ngay</button>
 
                <br>
                 <div id="click_here">
-                    <a href="index.php">Quay về Trang chủ</a>
+                    <a href="index.php">Trở về Trang chủ</a>
                 </div>
 
 
